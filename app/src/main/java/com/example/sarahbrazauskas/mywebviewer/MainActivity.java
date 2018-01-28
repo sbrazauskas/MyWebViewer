@@ -29,14 +29,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId())
             {
             case R.id.buttonUcsdGo:
-                Intent y;
-                y = new Intent(this, UcsdActivity.class);
-                startActivity(y);
+                Intent u;
+                u = new Intent(this, UcsdActivity.class);
+                startActivity(u);
                 break;
             case R.id.buttonYahooGo:
-                Intent u;
-                u = new Intent(this, YahooActivity.class);
-                startActivity(u);
+                Intent y;
+                y = new Intent(this, YahooActivity.class);
+                startActivity(y);
                 break;
             }
     }
